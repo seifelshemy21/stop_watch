@@ -1,15 +1,18 @@
 body{
     background-image:url(../imag/fb-stopwatch2.png);
-     background-repeat: no-repeat;
-        background-size: cover;
-
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
-    margin: 14rem 25rem;
+    margin: 14rem 20rem;
+    
+}
+.timer{
+    width: 500px;
+    
+
 }
 #timer {
-    width: 460px;
     font-size: 70px;
     background-color: rgba(0, 0, 0, 0.664);
     color: limegreen;
@@ -28,14 +31,12 @@ body{
   #ms {margin-left: 45px;}
   
   #controls {
-    margin-left:150px;
-    margin-top: 30px;
+    margin-top: 30px; 
   }
   
   button {
     width: 100px;
     height: 40px;
-    float: left;
     margin-left: 50px;
     font-size: 25px;
     font-weight: bold;
@@ -50,4 +51,19 @@ body{
   
   body, button {
     font-family: 'Courier';
+  }
+  @media (min-width: 350px) and (max-width: 794px) {
+    .timer{
+      width: 250px;
+      margin: auto;
+    }
+    #timer{
+    font-size: 30px;
+    }
+    #button{
+      width: 20px;
+    }
+    #labels{
+      display: none;
+    }
   }
