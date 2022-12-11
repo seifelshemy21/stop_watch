@@ -1,5 +1,7 @@
 body{
     background-image:url(../imag/fb-stopwatch2.png);
+     background-repeat: no-repeat;
+
 }
 .container{
     margin: 14rem 25rem;
